@@ -1,6 +1,10 @@
 import {Payload} from './Payload';
+// interface Payload {
+//     masskg: number;
+//     name: string;
+// }
 
-class Astronaut implements Payload{
+export class Astronaut implements Payload{
     massKg: number;
     name: string;
     constructor(masskg: number, name: string){
